@@ -11,17 +11,17 @@ author:
     alt: Yutong Han
 ---
 
-<div class="grid grid-cols-2 gap-4 mb-8">
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Client</strong><br>
+<div class="project-info-grid">
+  <div class="project-info-item">
+    <strong class="project-info-label">Client</strong><br>
     Caixin Media Company Ltd. 
   </div>
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Tool</strong><br>
+  <div class="project-info-item">
+    <strong class="project-info-label">Tool</strong><br>
     Adobe Illustrator  &nbsp;  skrollr  &nbsp;  jQuery   &nbsp;  ArcGIS
   </div>
-    <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Link</strong><br>
+    <div class="project-info-item">
+    <strong class="project-info-label">Link</strong><br>
     <a href="https://datanews.caixin.com/interactive/2022/snow/" target="_blank" class="text-blue-600">
       From the Caveman Movement to the Great Hall of Fame, What Make Ice Sports Popular Worldwide
     </a>

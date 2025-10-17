@@ -11,17 +11,17 @@ author:
     alt: Yutong Han
 ---
 
-<div class="grid grid-cols-2 gap-4 mb-8">
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Client</strong><br>
+<div class="project-info-grid">
+  <div class="project-info-item">
+    <strong class="project-info-label">Client</strong><br>
     Tranalytic Technology Co., Ltd.
   </div>
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Tool</strong><br>
+  <div class="project-info-item">
+    <strong class="project-info-label">Tool</strong><br>
     Adobe Illustrator  &nbsp;  Native Canvas  &nbsp;  Echarts
   </div>
-    <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Link</strong><br>
+  <div class="project-info-item">
+    <strong class="project-info-label">Link</strong><br>
     <a href="https://ytsd.cc/9bcf324d-2d0c-4c63-92d5-4ea4b697be64/exhibition-cockpit/greenwave-exhibition/?lightsFrames=1&gaugeFrames=1&averageSpeedFrames=1#/exhibition-cockpit/green-wave-exhibition/city/330100/plans/a9511813-af20-48b4-8f50-d2f439e832d0?psid=38aa26c5-eab9-4200-9248-25d4a9cc500f" target="_blank" class="text-blue-600">
       Greenwave Interactive Exhibition
     </a>

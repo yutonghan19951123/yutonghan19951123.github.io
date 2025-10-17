@@ -249,6 +249,20 @@
   @apply hover:shadow-xl;
 }
 
+/* Project Info Cards */
+.project-info-grid {
+  @apply grid gap-4 mb-8;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.project-info-item {
+  @apply bg-blue-50 rounded-lg p-4 dark:bg-gray-800;
+}
+
+.project-info-label {
+  @apply font-semibold;
+}
+
 /* Marquee animation */
 @keyframes marquee {
   0% {

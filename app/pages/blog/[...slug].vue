@@ -136,23 +136,23 @@
             />
           </div>
 
-          <div v-if="surround" class="mt-8">
+          <div v-if="surround && surround.length > 0" class="mt-8">
             <div class="flex items-center justify-between">
-              <div v-if="surround[0]?.prev" class="flex-1">
+              <div v-if="surround[0]" class="flex-1">
                 <ULink
-                  :to="surround[0].prev._path"
+                  :to="surround[0]._path as string"
                   class="flex items-center gap-2 text-sm"
                 >
                   <UIcon name="lucide:chevron-left" />
-                  {{ surround[0].prev.title }}
+                  {{ surround[0].title }}
                 </ULink>
               </div>
-              <div v-if="surround[0]?.next" class="flex-1 text-right">
+              <div v-if="surround[1]" class="flex-1 text-right">
                 <ULink
-                  :to="surround[0].next._path"
+                  :to="surround[1]._path as string"
                   class="flex items-center gap-2 text-sm justify-end"
                 >
-                  {{ surround[0].next.title }}
+                  {{ surround[1].title }}
                   <UIcon name="lucide:chevron-right" />
                 </ULink>
               </div>
