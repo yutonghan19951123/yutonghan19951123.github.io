@@ -140,7 +140,7 @@
             <div class="flex items-center justify-between">
               <div v-if="surround[0]" class="flex-1">
                 <ULink
-                  :to="surround[0]._path as string"
+                  :to="surround[0].path as string"
                   class="flex items-center gap-2 text-sm"
                 >
                   <UIcon name="lucide:chevron-left" />
@@ -149,7 +149,7 @@
               </div>
               <div v-if="surround[1]" class="flex-1 text-right">
                 <ULink
-                  :to="surround[1]._path as string"
+                  :to="surround[1].path as string"
                   class="flex items-center gap-2 text-sm justify-end"
                 >
                   {{ surround[1].title }}
