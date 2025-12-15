@@ -12,6 +12,14 @@
     window.open(path, '_blank')
   }
 
+  // Video URLs - Update these after uploading videos to external storage
+  // Options: GitHub Releases, Cloudinary, or other CDN
+  const videoUrls = {
+    'ai-agent': '/img/projects/ai-agent/demo.mp4', // TODO: Replace with external URL
+    '3d-pillar': '/img/projects/3d_pillar/demo.mp4', // TODO: Replace with external URL
+    'dop-workspace': '/img/projects/dop/workspace.mp4' // This one might be OK if < 50MB
+  }
+
   // Accordion state - default open Project 1
   const openItems = ref<Record<string, boolean>>({
     intersection: true,
@@ -42,7 +50,7 @@
         ],
         demo: {
           type: 'video',
-          src: '/img/projects/ai-agent/demo.mp4',
+          src: videoUrls['ai-agent'],
           link: '/blog/2025-10-30-ai-agent',
           linkText: 'View Project Details'
         }
@@ -64,7 +72,7 @@
         ],
         demo: {
           type: 'video',
-          src: '/img/projects/dop/workspace.mp4',
+          src: videoUrls['dop-workspace'],
           link: '/blog/2025-2-2-data-operation-platform-workspace',
           linkText: 'View Project Details'
         }
@@ -84,7 +92,7 @@
         ],
         demo: {
           type: 'video',
-          src: '/img/projects/3d_pillar/demo.mp4',
+          src: videoUrls['3d-pillar'],
           link: '/blog/2025-12-1-3d-pillar',
           linkText: 'View Project Details'
         }
