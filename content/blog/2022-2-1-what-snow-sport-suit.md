@@ -20,7 +20,7 @@ author:
     <strong class="project-info-label">Tool</strong><br>
     Adobe Illustrator  &nbsp;  Adobe After Effects  &nbsp;  jQuery
   </div>
-    <div class="project-info-item">
+  <div class="project-info-item">
     <strong class="project-info-label">Link</strong><br>
     <a href="https://datanews.caixin.com/interactive/2022/winter-olympics-game/" target="_blank" class="text-blue-600">
       What Winter Olympic Sports You Fit?

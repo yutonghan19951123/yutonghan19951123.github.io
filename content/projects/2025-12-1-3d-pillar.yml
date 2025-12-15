@@ -1,0 +1,13 @@
+title: A 3D Interactive Framework for Spatially Coincident Geodata
+description: Research-driven 3D OD visualization that keeps geography stable and makes inflow vs. outflow comparable.
+image: /img/projects/3d_pillar/1.png
+url: '/blog/2025-12-1-3d-pillar'
+tags:
+  [
+    'Vue3 Composition',
+    'WebAssembly',
+    'Element-plus UI',
+    'Adobe Illustrator',
+    'UI & UX Design'
+  ]
+date: '2025-12'

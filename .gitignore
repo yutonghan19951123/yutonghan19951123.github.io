@@ -25,3 +25,6 @@ logs
 
 # VSC
 .history
+
+# Large video files (use external storage)
+public/img/projects/**/*.mp4
