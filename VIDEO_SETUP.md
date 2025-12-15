@@ -1,30 +1,8 @@
 # 视频文件设置说明
 
-由于 GitHub 限制，大视频文件（>50MB）无法直接推送到仓库。请使用以下方案之一：
+由于 GitHub 限制，大视频文件（>50MB）无法直接推送到仓库。请使用以下方案：
 
-## 方案 1: 使用 GitHub Releases（推荐）
-
-1. 在 GitHub 上创建 Release：
-   - 访问：https://github.com/yutonghan19951123/yutonghan19951123.github.io/releases/new
-   - 上传视频文件作为 Release 附件
-   - 获取视频的直链 URL
-
-2. 更新代码中的视频链接：
-   - 编辑 `app/pages/phd-portfolio.vue`
-   - 将视频路径替换为 GitHub Releases 的直链
-
-## 方案 2: 使用云存储服务
-
-可以使用以下服务之一：
-
-- **Cloudinary** (免费): https://cloudinary.com
-- **AWS S3** + CloudFront
-- **Vercel Blob Storage**
-- **其他 CDN 服务**
-
-上传视频后，更新代码中的链接即可。
-
-## 方案 3: 使用 Git LFS
+## 方案: 使用 Git LFS
 
 如果需要将视频保留在仓库中：
 

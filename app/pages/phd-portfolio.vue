@@ -347,10 +347,11 @@
                   <h3
                     class="text-xl font-semibold text-gray-900 dark:text-white"
                   >
-                    PDF Portfolio
+                    Portfolio PDF
                   </h3>
                   <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                    A 3D Interactive Framework for Spatially Coincident Geodata
+                    Complete portfolio showcasing selected projects and research
+                    work
                   </p>
                 </div>
                 <div class="flex gap-3">
