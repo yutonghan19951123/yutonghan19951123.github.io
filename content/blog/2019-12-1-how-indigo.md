@@ -11,17 +11,17 @@ author:
     alt: Yutong Han
 ---
 
-<div class="grid grid-cols-2 gap-4 mb-8">
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Client</strong><br>
+<div class="project-info-grid">
+  <div class="project-info-item">
+    <strong class="project-info-label">Client</strong><br>
     Myself
   </div>
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Tool</strong><br>
+  <div class="project-info-item">
+    <strong class="project-info-label">Tool</strong><br>
     D3.js &nbsp; Adobe Illustrator &nbsp; Procreate
   </div>
-    <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Link</strong><br>
+    <div class="project-info-item">
+    <strong class="project-info-label">Link</strong><br>
     <a href="https://yutonghan1123.github.io/indigo/" target="_blank" class="text-blue-600">
       From Ancient Cloth in China to Your Jeans
     </a>

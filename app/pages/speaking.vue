@@ -30,9 +30,9 @@
   const groupedEvents = computed((): Record<Event['category'], Event[]> => {
     const events = page.value?.events || []
     const grouped: Record<Event['category'], Event[]> = {
-      'Conference': [],
+      Conference: [],
       'Live talk': [],
-      'Podcast': []
+      Podcast: []
     }
     for (const event of events) {
       if (grouped[event.category]) grouped[event.category].push(event)
@@ -49,10 +49,7 @@
 </script>
 
 <template>
-  <div
-v-if="page"
-class="min-h-screen"
->
+  <div v-if="page" class="min-h-screen">
     <div class="relative py-16 sm:py-24">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:mx-0">
@@ -106,10 +103,7 @@ class="min-h-screen"
               />
               <div class="mb-1 text-sm font-medium text-muted">
                 <span>{{ event.location }}</span>
-                <span
-v-if="event.location && event.date"
-class="mx-1"
->·</span>
+                <span v-if="event.location && event.date" class="mx-1">·</span>
                 <span v-if="event.date">{{ formatDate(event.date) }}</span>
               </div>
 

@@ -42,17 +42,17 @@
       icon: 'i-lucide-newspaper'
     },
     {
-      date: 'July, 2025',
+      date: 'Current',
       title: 'Tranalytic Technology Co., Ltd.',
       description: `Front-End & Data Visualization Engineer`,
       icon: 'i-lucide-braces'
-    },
-    {
-      date: 'July, 2027',
-      title: 'Georgia Institute of Technology',
-      description: 'Online Master of Science in Computer Science',
-      icon: 'i-lucide-binary'
     }
+    // {
+    //   date: 'July, 2027',
+    //   title: 'Georgia Institute of Technology',
+    //   description: 'Online Master of Science in Computer Science',
+    //   icon: 'i-lucide-binary'
+    // }
   ])
 
   const { footer } = useAppConfig()

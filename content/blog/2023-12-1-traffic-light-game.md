@@ -11,17 +11,17 @@ author:
     alt: Yutong Han
 ---
 
-<div class="grid grid-cols-2 gap-4 mb-8">
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Client</strong><br>
+<div class="project-info-grid">
+  <div class="project-info-item">
+    <strong class="project-info-label">Client</strong><br>
     Tranalytic Technology Co., Ltd.
   </div>
-  <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Tool</strong><br>
+  <div class="project-info-item">
+    <strong class="project-info-label">Tool</strong><br>
     Adobe Illustrator  &nbsp;  Native Canvas  &nbsp;  Echarts
   </div>
-    <div class="bg-blue-50 rounded-lg p-4">
-    <strong>Link</strong><br>
+    <div class="project-info-item">
+    <strong class="project-info-label">Link</strong><br>
     <a href="https://ytsd.cc/games/greenwave/#/" target="_blank" class="text-blue-600">
       A Day as a Traﬃc Signal Timer
     </a>
